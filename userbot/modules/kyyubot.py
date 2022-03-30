@@ -44,10 +44,9 @@ async def typewriter(typew):
     sleep(1.5)
     await xnxx.edit("**KALO MENTAL MASIH PATUNGAN**")
     sleep(1.5)
-    await xnxx.edit("**GAUSAH SOK KERAS DEH**")
+    await xnxx.edit("**GAUSAH SOK KERAS DEKKUHH**")
     sleep(1.5)
-    await xnxx.edit("**GA KEREN LO BEGITU NGENTOT**")
-
+    await xnxx.edit("**MENDING KAU MAEN EPEP SAMBIL JUMPSHOOT**")
 
 @kyy_cmd(pattern="wah(?: |$)(.*)")
 async def typewriter(typew):
@@ -56,13 +55,13 @@ async def typewriter(typew):
     sleep(2)
     await xnxx.edit("`Tapi, Yang gua liat, kok Kaya lawakan`")
     sleep(2)
-    await xnxx.edit("`Oh iya, Kan lo badut 🤡`")
+    await xnxx.edit("`Oh iya, Kan lo badut **ALIANSI** 🤡`")
     sleep(2)
     await xnxx.edit("`Kosa kata pas ngelawak, Jangan di pake war bang`")
     sleep(2)
-    await xnxx.edit("`Kesannya lo ngasih kita hiburan.`")
+    await xnxx.edit("`Kesannya lo ngasih kita hiburan gratis.`")
     sleep(2)
-    await xnxx.edit("`Kasian badut🤡, Ga di hargain pengunjung, Eh lampiaskan nya ke Tele, Wkwkwk`")
+    await xnxx.edit("`Kasian badut **ALIANSI** 🤡, Ga di hargain pengunjung, Eh lampiaskan nya ke Tele, Wkwkwk`")
     sleep(3)
     await xnxx.edit("`Dah sana cabut, Makasih hiburannya, Udah bikin Gua tawa ngakak`")
 
@@ -71,13 +70,13 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    xnxx = await edit_or_reply(typew, "eh kamu, iya kamu")
+    xnxx = await edit_or_reply(typew, "eh kau yang spamm bot mulu, iya kamu")
     sleep(1)
     await xnxx.edit("**ALAY** bnget sih")
     sleep(1)
     await xnxx.edit("spam bot mulu")
     sleep(1)
-    await xnxx.edit("baru jadi userbot ya?? xixixi")
+    await xnxx.edit("baru di bikinin userbot ya?? Awokwok")
     sleep(1)
     await xnxx.edit("pantes **NORAK**")
 
