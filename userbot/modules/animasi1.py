@@ -47,7 +47,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     xnxx = await edit_or_reply(typew, "`\n(\\_/)`"
                                "`\n(●_●)`"
-                               "`\n />❤️ *Ini Buat Kamu`")
+                               "`\n />❤️ *Ini punyaku Buat Kamu`")
     sleep(3)
     await xnxx.edit("`\n(\\_/)`"
                     "`\n(●_●)`"
@@ -135,8 +135,8 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     xnxx = await edit_or_reply(typew, "`\n(\\_/)`"
                                "`\n(●_●)`"
-                               "`\n />💖 *Ini Buat Kamu`")
-    sleep(2)
+                               "`\n />💖 *Ini Punya Aku, Buat Kamu`")
+    sleep(3)
     await xnxx.edit("`\n(\\_/)`"
                     "`\n(●_●)`"
                     "`\n💖<\\  *Tapi Bo'ong Hiyahiyahiya`")
