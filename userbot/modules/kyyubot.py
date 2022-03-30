@@ -112,7 +112,7 @@ async def typewriter(typew):
     sleep(1)
     await xnxx.edit("`Ange😫`")
     sleep(1)
-    await xnxx.edit("`Ayukkk Ewean Ayanggg🤤`")
+    await xnxx.edit("`Ayukkk Ayang Kirim Pap Nenen🤤`")
 
 
 @kyy_cmd(pattern="virtual(?: |$)(.*)")
