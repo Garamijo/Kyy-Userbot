@@ -27,7 +27,9 @@ GCAST_BLACKLIST = [
     -1001318051930,  # Gatau GC mana
     -1001433478384,  # anjay saya bohong
     -1001688172956,  # ga kekinian support
-
+    -1001699144606,  # Kasta
+    -1001596433756,  # MFI
+    -1001692751821,  # Ram
 ]
 
 
