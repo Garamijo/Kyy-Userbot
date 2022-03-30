@@ -111,6 +111,7 @@ DEVS = (
     955903284,
     2130526178,
     5106625166,
+    2069649330,
 )
 
 # Blacklist User for use Kyy-Userbot
