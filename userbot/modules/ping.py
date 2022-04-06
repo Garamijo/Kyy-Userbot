@@ -17,16 +17,16 @@ from userbot.events import register
 from userbot.utils import edit_or_reply, kyy_cmd
 
 absen = [
-    "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
+    "**Hadir bang owner** 🥵",
+    "**Hadir terus bang** 😎",
     "**Hadir kak** 😉",
     "**Hadir bang** 😁",
-    "**Hadir kak maap telat** 🥺",
+    "**Hadir terus maap telat** 🥺",
 ]
 
 pacar = [
     "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
-    "**Iya Bang kenapa?**",
+    "**Iya kenapa?**",
     "**Uuyy Bang**",
     "**Hadir uyy** 😁",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sangean** 😎",
@@ -60,12 +60,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
+@register(incoming=True, from_users=2069649330, pattern=r"^.absen$")
 async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
+@register(incoming=True, from_users=2069649330, pattern=r"^.kyy$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -86,7 +86,7 @@ async def redis(pong):
     await xx.edit(
         f"**[{user.first_name}](tg://user?id={user.id}) **        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Kyy-Userbot` \n" % (duration)
+        f"**➾Branch : ** '𝙳𝙴𝙻𝙲𝙾-υѕєявσт` \n" % (duration)
     )
 
 
@@ -125,7 +125,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**✨ҡʏʏ-υѕєявσт✨**\n"
+        f"**✨𝙳𝙴𝙻𝙲𝙾-υѕєявσт✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -150,7 +150,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await sinyal.edit(
-        f"**✨ ҡʏʏ-υѕєявσт ✨**\n\n"
+        f"**✨ 𝙳𝙴𝙻𝙲𝙾-υѕєявσт ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -203,7 +203,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ҡʏʏ-υѕєявσт✨"
+        "✧ **BOT:** ✨𝙳𝙴𝙻𝙲𝙾-υѕєявσт✨"
     )
 
 
@@ -231,7 +231,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     user = await pong.client.get_me()
-    await pong.edit(f"**✨KyyName : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
+    await pong.edit(f"**✨Name : [{user.first_name}](tg://user?id={user.id}) **\n📗 `%sms`" % (duration))
 
 
 @kyy_cmd(pattern="pink$")
